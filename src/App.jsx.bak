@@ -1,0 +1,71 @@
+/*
+You are building a romantic Valentine’s Day React website using React.js and Tailwind CSS.
+
+Requirements:
+
+GENERAL
+- Single-page React app
+- Use functional components and hooks
+- Smooth animations and transitions
+- Mobile-friendly and centered layout
+- Pink/red/romantic color theme
+- Playful and cute tone (cartoon love vibe)
+
+PAGE 1 (Proposal Page)
+- Center everything vertically and horizontally
+- At the top: a looping animated GIF showing two cute cartoon characters kissing
+  - Surrounded by floating heart / love emojis
+  - Hearts should gently float or pulse using CSS animation
+
+- Below the GIF:
+  Text (large, cute font):
+  "Alice, will you be my valentine?"
+
+- Below the text:
+  Two buttons side by side:
+  YES (green or pink)
+  NO (red or gray)
+
+NO BUTTON BEHAVIOR
+- The NO button text should change every time it is clicked, cycling through phrases like:
+  1. "NO"
+  2. "Really sure??"
+  3. "Pookie please 🥺"
+  4. "Just think about it"
+  5. "Don’t break my heart 💔"
+  6. "Last chance 😭"
+  - Continue looping through the messages
+
+- Every time NO is clicked:
+  - The YES button grows bigger using a scale transform
+  - YES button growth should be smooth (CSS transition)
+  - Eventually YES becomes so large it nearly fills the screen
+
+YES BUTTON BEHAVIOR
+- When YES is clicked:
+  - Navigate to a second page or conditionally render a new screen
+
+PAGE 2 (Success Page)
+- Full-screen happy layout
+- Big text:
+  "Knew you would say yes! 💖"
+- Below it:
+  A looping GIF of cute cartoon characters hugging, cuddling, or expressing love
+- Add subtle floating hearts or sparkles animation
+- Background should feel warm and celebratory
+
+TECHNICAL
+- Use React useState for:
+  - NO button message index
+  - YES button scale
+  - Page state (proposal vs success)
+- Use Tailwind utility classes for styling
+- Use inline styles only if necessary for dynamic scaling
+- Add smooth transitions using Tailwind transition classes
+
+ASSETS
+- Use public GIF URLs (cute cartoon love / kissing / hugging)
+- Keep everything lightweight and simple
+
+Produce clean, readable, beginner-friendly React code.
+*/

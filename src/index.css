@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add responsive base styles */
+@layer base {
+  html {
+    @apply text-base;
+  }
+  
+  body {
+    @apply overflow-x-hidden;
+  }
+}
+
+/* Responsive typography */
+@layer utilities {
+  .text-responsive-xs {
+    font-size: clamp(0.75rem, 2vw, 0.875rem);
+  }
+  
+  .text-responsive-sm {
+    font-size: clamp(0.875rem, 2.5vw, 1rem);
+  }
+  
+  .text-responsive-base {
+    font-size: clamp(1rem, 3vw, 1.125rem);
+  }
+  
+  .text-responsive-lg {
+    font-size: clamp(1.125rem, 4vw, 1.5rem);
+  }
+  
+  .text-responsive-xl {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+  }
+  
+  .text-responsive-2xl {
+    font-size: clamp(2rem, 6vw, 3rem);
+  }
+  
+  .text-responsive-3xl {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+  }
+}
