@@ -424,7 +424,7 @@ function App() {
           rel="noopener noreferrer"
           className="text-xs text-pink-600/70 hover:text-pink-600 transition-colors duration-300 hover:underline"
         >
-          Made with 💖 by Simon
+          Made with 💖 by Mirrshii
         </a>
       </div>
     </div>
